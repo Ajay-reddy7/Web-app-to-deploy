@@ -1,2 +1,2 @@
 # Web-app-to-deploy
-This is a small web app
+This is a small web app with complete devops implementation
