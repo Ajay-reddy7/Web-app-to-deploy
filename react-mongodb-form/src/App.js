@@ -17,7 +17,7 @@ const App = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/submit', formData);
+      const response = await axios.post('http://localhost:5001/submit', formData);
       alert(response.data.message);
       setFormData({ name: '', age: '', comment: '' }); // Reset form
     } catch (error) {
